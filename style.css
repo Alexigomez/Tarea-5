@@ -1,0 +1,371 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Releway', sans-serif;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+
+.navegador{
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(15, 19, 54);
+}
+.navegador a {
+    margin-right: 20px;
+    color: #ffffff; 
+    text-decoration: none; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.imagen1{
+    position: absolute;
+    display: flex;
+    top: 30%;
+    left: 2%;
+    width: 50%;
+    height: 50%;
+    
+}
+.imagen1 img{
+    border-radius: 62px;
+  
+}
+.logo {
+    position: absolute;
+    display: flex;
+    top: 2.5%;
+    left: 3%;
+    width: 120px;
+    height: 120px;
+    border-radius: 10px; 
+  }
+
+
+.iconos_carrito img {
+    width: 30px; 
+    height: 30px; 
+    position: absolute;
+    top: 7%;
+    left: 95%;
+    list-style: none;
+    filter: grayscale(100%) invert(100%);
+  }
+  .lupa img{
+    width: 30px; 
+    height: 30px; 
+    position: absolute;
+    top: 7%;
+    left: 90%;
+    list-style: none;
+    filter: grayscale(100%) invert(100%);
+  }
+
+  .Parrafo{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    text-align: center;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+  }
+  .Parrafo p{
+    font-family: 'Times New Roman', Times, serif;
+  }
+ .t2{
+    color: #b43131;
+    font-family: 'Times New Roman', Times, serif;
+
+ }
+ .tex6{
+    position: absolute;
+    top: 85%;
+    left: 2%;
+    text-align: center;
+    border: none;
+    font-size: 22px;
+ }
+ .tex6 p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #188088;
+ }
+ .caja{ 
+    position: absolute;
+    top: 30%;
+    left: 50%;
+ }
+ .caja img{
+    width: 40px; 
+    height: 40px;
+ }
+ .pizza{
+    position: absolute;
+    top: 90%;
+    left: 90%;
+ }
+ .pizza img{
+    width: 40px; 
+    height: 40px;
+ }
+.Menu{
+    position: absolute;
+    display: flex;
+    top: 100%;
+    left: 0%;
+    width: 100%;
+    border-top: 7px solid #0d0b2e;
+    border-right: none; 
+    border-bottom: none; 
+    border-left: none;
+}
+.text{
+    position: absolute;
+    display: contents;
+    top: 10%;
+    left: 10%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.margarita{
+    position: absolute;
+    display: flex;
+    top: 150%;
+    left: 10%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.oregano{
+    position: absolute;
+    display: flex;
+    top: 200%;
+    left: 10%;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px; 
+}
+.preciocompra{
+    text-align: center;
+    position: absolute;
+    display: block;
+    top: 200%;
+    left: 23%;
+    border: color(srgb red green blue);
+    width: 150px;
+    height: 173px;
+
+}
+
+
+.boton-compra {
+   
+    align-items: center;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .boton-compra i {
+    margin-right: 10px;
+  }
+  .Menu2{
+    position: absolute;
+    display: flex;
+    top: 115%;
+    left: 30%;
+    width: 100%;
+    border-right: none; 
+    border-bottom: none; 
+    border-left: none;
+  }
+  .oregano1{
+    position: absolute;
+    display: flex;
+    top: 10%;
+    left: 10%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .Menu3{
+    position: absolute;
+    display: flex;
+    top: 115%;
+    left: 60%;
+    width: 100%;
+    border-right: none; 
+    border-bottom: none; 
+    border-left: none;
+  }
+  .peperoni{
+    position: absolute;
+    display: flex;
+    top: 10%;
+    left: 10%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .Menu4{
+    position: absolute;
+    display: flex;
+    top: 150%;
+    left: 0%;
+    width: 100%;
+    border-right: none; 
+    border-bottom: none; 
+    border-left: none;
+  }
+  .champiñones{
+    position: absolute;
+    display: flex;
+    top: 10%;
+    left: 10%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .Menu5{
+    position: absolute;
+    display: flex;
+    top: 150%;
+    left: 30%;
+    width: 100%;
+    border-right: none; 
+    border-bottom: none; 
+    border-left: none;
+  }
+  .deluxe{
+    position: absolute;
+    display: flex;
+    top: 10%;
+    left: 10%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .Menu6{
+    position: absolute;
+    display: flex;
+    top: 150%;
+    left: 60%;
+    width: 100%;
+    border-right: none; 
+    border-bottom: none; 
+    border-left: none;
+  }
+  .hawaina{
+    position: absolute;
+    display: flex;
+    top: 10%;
+    left: 10%;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+ 
+  .coca{
+    position: absolute;
+    display: flex;
+    top: 200%;
+    left: 0%;
+    width: 100%;
+    border-right: none; 
+    border-bottom: none; 
+    border-left: none;
+  }
+  .fanta{
+    position: absolute;
+    display: flex;
+    top: 200%;
+    left: 30%;
+    width: 100%;
+    border-right: none; 
+    border-bottom: none; 
+    border-left: none;
+  }
+  .sprite{
+    position: absolute;
+    display: flex;
+    top: 200%;
+    left: 60%;
+    width: 100%;
+    border-right: none; 
+    border-bottom: none; 
+    border-left: none;
+  }
+  .Contacto{
+    position: absolute;
+    display: flex ;
+    top: 250%;
+    left: 0%;
+    width: 100%;
+    border-top: 7px solid #0d0b2e;
+    border-right: none; 
+    border-bottom: none; 
+    border-left: none;
+  }
+  .text2{
+    position: absolute;
+    display: block;
+    top: 150%;
+    left: 0%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+  .boton-moto {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #188088;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .boton-moto i {
+    margin-right: 10px;
+  }
+  .text3{
+    position: absolute;
+    display: flex;
+    top: -90%;
+    left: 255%;
+    width: 350px; 
+    height: 200px; 
+  }
+  .text3 h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+  }
+  .redesSociales {
+    position: absolute;
+    top: -30%;
+    left: 250%;
+    display: flex;
+    align-items: center;
+  }
+  .redesSociales a {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px; 
+    padding: 10px 20px;
+    background-color: transparent;
+    color: rgb(5, 5, 5);
+    border: none;
+    border-radius: 5px;
+  }
+  .redesSociales img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+  }
